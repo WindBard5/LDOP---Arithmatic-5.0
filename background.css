@@ -79,6 +79,21 @@ body {
     margin-bottom: 10px;
 }
 
+a {
+    width: 200px;
+    height: 50px;
+    background: rgb(78, 117, 11);
+    transition-duration: 2s;
+    transition-property: transform;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+}
+
+a:hover{
+    background: blue;
+    transform: rotate(45deg);
+}
+
 ul li {
     position: relative;
     list-style: none;
@@ -157,6 +172,11 @@ ul li {
 
 p {
     color: black;
+}
+
+p::first-letter {
+    font-size: 40px;
+    font-style: italic;
 }
 
 .Biodata {
