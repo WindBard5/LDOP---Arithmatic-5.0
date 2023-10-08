@@ -1,0 +1,197 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(222, 233, 240);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.full {
+	width: 100%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 50px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+
+.left {
+	position: initial;
+	background-color: rgb(80, 105, 103);
+	padding: 20px;
+
+}
+
+.profile {
+    position: initial;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image{
+    position: initial;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile .image img {
+    position: initial;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile h2{
+    color: aliceblue;
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1.4em;
+}
+
+.profile h2 span{
+    font-size: 0.8em;
+    font-weight: 200;
+}
+
+.Contact {
+    padding-top: 10px;
+}
+
+.Contact2 {
+    color: rgb(255, 244, 240);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.Contact ul{
+    position: relative;
+}
+
+.Education {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Education2 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.Language {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Language2 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+}
+
+.percent {
+    position: initial;
+    width: 100%;
+    height: 6px;
+    background: black;
+    display: block;
+    margin-top: 5px;
+}
+
+.percent div{
+    position: initial;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(6, 85, 131);
+}
+
+.right {
+	position: initial;
+	background-color: rgb(202, 240, 244);
+	padding: 20px;
+}
+
+.about {
+    margin-bottom: 30px;
+}
+
+.Summary {
+    color: rgb(6, 0, 16);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: black;
+}
+
+.Biodata {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.Experience {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.Hobby {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.Skills {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: rgb(0, 0, 0);
+}
+
